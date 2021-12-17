@@ -4,20 +4,62 @@
     <meta charset="utf-8">
     <title>Planets</title>
     <style>
-    td, th, tr {
-      text-align: center;}
+    body{
+      background-color: #C9B982;
+    }
+    table{
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 100%;
+      background-color: rgb(155, 195, 110);
+
+    }
+    td, th, tr{
+      text-align: center;
+      padding: 10px;
+    }
+    td{
+      border-bottom: 1px solid black;
+
+    }
+    th{
+      border: 1px solid black;
+    }
+    tr.first>th{
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: rgba(119, 121, 118, 0.49);
+    }
+    tr:nth-last-of-type(even){
+      background-color: rgba(119, 121, 118, 0.49);
+    }
+    figcaption{
+      text-align: right;
+    }
+    table>caption{
+      text-align: right;
+    }
+
+    /*tr.even{
+      background-color: rgba(119, 121, 118, 0.49);
+    }*/
     </style>
   </head>
   <body>
     <header>
-      <h1> Planet Stuff </h1>
+      <figure>
+        <img src="images/nasaSolar.png" alt="Solar System by NASA" width="100%"/>
+        <br />
+        <figcaption>The Solar System by NASA</figcaption>
+      </figure>
     </header>
-    <caption> Planetary Facts in Relation to Earth </caption>
+
     <hr>
     <table>
+      <caption align="bottom"> Planetary Facts in Relation to Earth </caption>
       <thead>
-        <tr>
-          <th></th>
+        <tr class="first">
+          <th scope="col">Planet</th>
           <th scope="col">Mass</th>
           <th scope="col">Diameter</th>
           <th scope="col">Density</th>
@@ -40,7 +82,7 @@
           <td>0.241</td>
           <td>0</td>
         </tr>
-        <tr>
+        <tr class="even">
           <th scope="row">Venus</th>
           <td>0.815</td>
           <td>0.949</td>
@@ -62,7 +104,7 @@
           <td>1</td>
           <td>1</td>
         </tr>
-        <tr>
+        <tr class="even">
           <th scope="row">Mars</th>
           <td>0.107</td>
           <td>0.532</td>
@@ -84,7 +126,7 @@
           <td>11.9</td>
           <td>79</td>
         </tr>
-        <tr>
+        <tr class="even">
           <th scope="row">Saturn</th>
           <td>95.2</td>
           <td>9.45</td>
@@ -106,7 +148,7 @@
           <td>83.7</td>
           <td>27</td>
         </tr>
-        <tr>
+        <tr class="even">
           <th scope="row">Neptune</th>
           <td>17.1</td>
           <td>3.88</td>
