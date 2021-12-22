@@ -1,0 +1,62 @@
+* {
+  background-color: #000;
+  font-family: "Audiowide", Copperplate, tahoma, helvetica, sans-serif;
+}
+body {
+  border: 8px double hsl(162 98% 30%);
+  /*border-image: repeating-linear-gradient(45deg, hsl(162 98% 50%), hsl(162 98% 30%), hsl(162 98% 50%) 180px) 10;*/
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  color: hsl(163 100% 20%);
+  text-shadow: -3px -3px 4px hsl(162 100% 50%);
+  font-size: 500%;
+  /*border: 8px solid;
+  border-image: repeating-linear-gradient(45deg, hsl(162 98% 50%), hsl(162 98% 30%), hsl(162 98% 50%) 180px) 10;
+  border-radius: 8px;
+  border-color: hsl(162 98% 25%);*/
+}
+table {
+  border: 4px solid hsl(14 100% 10%);
+  border-collapse: collapse;
+  align-items: center;
+  width: 100%;
+  padding: 60px;
+  background-color: rgb(142, 177, 123);
+}
+td, th, tr {
+  text-align: center;
+  padding: 10px;
+}
+td {
+  border-bottom: 2px solid hsl(14 100% 10%);
+  background: linear-gradient(hsl(14 100% 20%), hsl(43 65% 75%) 33%, hsl(14 100% 20%));
+  /*linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%);*/
+
+}
+th {
+  background: linear-gradient(hsl(14 100% 20%), hsl(43 65% 75%) 33%, hsl(14 100% 20%));
+  border: 3px solid hsl(14 100% 10%);
+}
+tr.first>th {
+  border: 3px solid hsl(14 100% 10%);
+  background-image: linear-gradient(hsl(14 100% 20%), hsl(43 65% 75%) 33%, hsl(14 100% 20%));
+  /*background-image: linear-gradient(rgb(204, 203, 203), rgb(128, 126, 126));*/
+  background-color: rgba(119, 121, 118, 0.49);
+}
+tr:nth-last-of-type(even) {
+  background-color: rgba(132, 132, 132, 0.5);
+}
+figcaption {
+  text-align: right;
+  color: #666;
+}
+table>caption {
+  text-align: right;
+  color: #666;
+}
+
+/*tr.even{
+  background-color: rgba(119, 121, 118, 0.49);
+}*/
