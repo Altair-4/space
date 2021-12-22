@@ -3,14 +3,14 @@
   font-family: "Audiowide", Copperplate, tahoma, helvetica, sans-serif;
 }
 body {
-  border: 8px double hsl(162 98% 30%);
+  border: 8px solid hsl(162 30% 30%);
   /*border-image: repeating-linear-gradient(45deg, hsl(162 98% 50%), hsl(162 98% 30%), hsl(162 98% 50%) 180px) 10;*/
   border-radius: 8px;
 }
 h1 {
   text-align: center;
-  color: hsl(163 100% 20%);
-  text-shadow: -3px -3px 4px hsl(162 100% 50%);
+  color: hsl(163 30% 20%);
+  text-shadow: -3px -3px 4px hsl(162 30% 50%);
   font-size: 500%;
   /*border: 8px solid;
   border-image: repeating-linear-gradient(45deg, hsl(162 98% 50%), hsl(162 98% 30%), hsl(162 98% 50%) 180px) 10;
